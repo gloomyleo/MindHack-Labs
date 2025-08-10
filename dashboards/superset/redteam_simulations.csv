@@ -1,3 +1,0 @@
-ts,system,ttps,detected,notes
-2025-08-10T09:00:00Z,Windows Server,T1059|T1547,true,EDR alert on script runner
-2025-08-10T10:30:00Z,Ubuntu,T1059|T1041,false,Data exfil went undetected

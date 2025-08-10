@@ -1,4 +1,0 @@
-ts,subreddit,url,verdict,confidence
-2025-08-10T10:00:00Z,AIArt,http://example.com/1.jpg,real,0.92
-2025-08-10T11:00:00Z,deepfakes,http://example.com/2.mp4,fake,0.87
-2025-08-10T12:00:00Z,AIArt,http://example.com/3.png,uncertain,0.78
