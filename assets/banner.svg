@@ -1,33 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1280" height="360" viewBox="0 0 1280 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">MindHack Labs Banner</title>
-  <desc id="desc">Abstract gradient banner with title text for AI Security & Red Team Projects</desc>
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#111827"/>
-      <stop offset="100%" stop-color="#0f766e"/>
-    </linearGradient>
-    <linearGradient id="fx" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#22d3ee"/>
-      <stop offset="100%" stop-color="#a78bfa"/>
-    </linearGradient>
-  </defs>
-  <rect width="1280" height="360" fill="url(#bg)"/>
-  <!-- Decorative lines -->
-  <g opacity="0.25">
-    <rect x="80" y="80" width="1120" height="2" fill="#22d3ee"/>
-    <rect x="80" y="120" width="1120" height="2" fill="#a78bfa"/>
-    <rect x="80" y="160" width="1120" height="2" fill="#34d399"/>
-    <rect x="80" y="200" width="1120" height="2" fill="#22d3ee"/>
-    <rect x="80" y="240" width="1120" height="2" fill="#a78bfa"/>
-  </g>
-  <!-- Title -->
-  <g>
-    <text x="60" y="190" font-family="Segoe UI, Roboto, Arial, sans-serif" font-weight="800" font-size="68" fill="url(#fx)">
-      MindHack Labs
-    </text>
-    <text x="62" y="235" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="22" fill="#c7d2fe">
-      AI Security &amp; Red Team Projects
-    </text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360">
+  <rect width="1280" height="360" fill="#111827"/>
+  <rect x="0" y="300" width="1280" height="4" fill="#22d3ee"/>
+  <rect x="0" y="320" width="1280" height="4" fill="#a78bfa"/>
+  <text x="60" y="190" font-family="Segoe UI, Arial, sans-serif" font-size="68" font-weight="800" fill="#e5e7eb">
+    MindHack Labs
+  </text>
+  <text x="62" y="235" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#c7d2fe">
+    AI Security &amp; Red Team Projects
+  </text>
 </svg>
