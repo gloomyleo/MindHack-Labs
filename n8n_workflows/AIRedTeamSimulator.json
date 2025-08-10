@@ -1,11 +1,86 @@
 {
-  "meta": {
-    "instanceId": "placeholder"
+  "name": "AI Red Team Simulator",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "Manual Trigger",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        280,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "keepOnlySet": true,
+        "values": {
+          "string": [
+            {
+              "name": "system",
+              "value": "Windows Server 2019"
+            },
+            {
+              "name": "techniques",
+              "value": "T1059,T1547"
+            }
+          ]
+        }
+      },
+      "id": "Set TTPs",
+      "name": "Set TTPs",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 2,
+      "position": [
+        520,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "url": "http://localhost:5002/simulate",
+        "responseFormat": "json",
+        "options": {},
+        "method": "POST",
+        "jsonParameters": true,
+        "bodyParametersJson": "{\"system\": \"={{$json[\\\"system\\\"]}}\", \"techniques\": [\"={{$json[\\\"techniques\\\"]}}\"]}"
+      },
+      "id": "Plan Attack",
+      "name": "Plan Attack",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [
+        780,
+        200
+      ]
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          {
+            "node": "Set TTPs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set TTPs": {
+      "main": [
+        [
+          {
+            "node": "Plan Attack",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
   },
-  "nodes": [],
-  "connections": {},
   "active": false,
   "settings": {},
-  "name": "AI Red Team Simulator",
   "id": "ai_red_team_simulator"
 }

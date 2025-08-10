@@ -1,0 +1,52 @@
+{
+  "title": "MindHack - PQC Benchmarking",
+  "timezone": "browser",
+  "schemaVersion": 39,
+  "version": 1,
+  "panels": [
+    {
+      "type": "stat",
+      "title": "Devices Benchmarked",
+      "gridPos": {
+        "h": 4,
+        "w": 4,
+        "x": 0,
+        "y": 0
+      },
+      "targets": []
+    },
+    {
+      "type": "stat",
+      "title": "Avg Kyber Time (ms)",
+      "gridPos": {
+        "h": 4,
+        "w": 4,
+        "x": 4,
+        "y": 0
+      },
+      "targets": []
+    },
+    {
+      "type": "stat",
+      "title": "Avg Dilithium Time (ms)",
+      "gridPos": {
+        "h": 4,
+        "w": 4,
+        "x": 8,
+        "y": 0
+      },
+      "targets": []
+    },
+    {
+      "type": "graph",
+      "title": "Algorithm Times by Device",
+      "gridPos": {
+        "h": 10,
+        "w": 12,
+        "x": 0,
+        "y": 4
+      },
+      "targets": []
+    }
+  ]
+}

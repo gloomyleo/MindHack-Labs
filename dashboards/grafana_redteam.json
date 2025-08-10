@@ -1,0 +1,52 @@
+{
+  "title": "MindHack - AI Red Team Scoreboard",
+  "timezone": "browser",
+  "schemaVersion": 39,
+  "version": 1,
+  "panels": [
+    {
+      "type": "stat",
+      "title": "Simulations Run",
+      "gridPos": {
+        "h": 4,
+        "w": 4,
+        "x": 0,
+        "y": 0
+      },
+      "targets": []
+    },
+    {
+      "type": "stat",
+      "title": "Detected by Blue Team",
+      "gridPos": {
+        "h": 4,
+        "w": 4,
+        "x": 4,
+        "y": 0
+      },
+      "targets": []
+    },
+    {
+      "type": "stat",
+      "title": "Undetected (Evasion)",
+      "gridPos": {
+        "h": 4,
+        "w": 4,
+        "x": 8,
+        "y": 0
+      },
+      "targets": []
+    },
+    {
+      "type": "graph",
+      "title": "TTP Success vs Detection",
+      "gridPos": {
+        "h": 10,
+        "w": 12,
+        "x": 0,
+        "y": 4
+      },
+      "targets": []
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+ts,device,os,alg,ms
+2025-08-10T08:00:00Z,raspi5,Debian,Kyber,82
+2025-08-10T08:00:00Z,raspi5,Debian,Dilithium,118
+2025-08-10T08:00:00Z,macbook_m2,macOS,Kyber,23
+2025-08-10T08:00:00Z,macbook_m2,macOS,Dilithium,37

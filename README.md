@@ -90,3 +90,11 @@ For vulnerabilities, see [SECURITY.md](SECURITY.md).
 
 ## 📜 License
 MIT — see [LICENSE](LICENSE).
+
+
+---
+
+### Assets
+- Light banner: `assets/banner-light.png`  
+- Dark banner: `assets/banner-dark.png`  
+Use whichever fits your GitHub theme or marketing pages.

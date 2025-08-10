@@ -1,0 +1,78 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: n8n
+      POSTGRES_PASSWORD: n8n
+      POSTGRES_DB: n8n
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  n8n:
+    image: n8nio/n8n:latest
+    depends_on:
+      - postgres
+    environment:
+      - DB_TYPE=postgresdb
+      - DB_POSTGRESDB_HOST=postgres
+      - DB_POSTGRESDB_PORT=5432
+      - DB_POSTGRESDB_DATABASE=n8n
+      - DB_POSTGRESDB_USER=n8n
+      - DB_POSTGRESDB_PASSWORD=n8n
+      - N8N_HOST=localhost
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+      - N8N_ENCRYPTION_KEY=change_me_dev_only
+      - GENERIC_TIMEZONE=America/Toronto
+    ports:
+      - "5678:5678"
+    volumes:
+      - n8n_data:/home/node/.n8n
+
+  api_deepfake:
+    build:
+      context: ./python_apis
+    command: python deepfake_api.py
+    environment:
+      - PYTHONUNBUFFERED=1
+    ports:
+      - "5001:5001"
+
+  api_redteam:
+    build:
+      context: ./python_apis
+    command: python redteam_agent.py
+    environment:
+      - PYTHONUNBUFFERED=1
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    ports:
+      - "5002:5002"
+
+  api_pqc:
+    build:
+      context: ./python_apis
+    command: python pqc_benchmark.py
+    environment:
+      - PYTHONUNBUFFERED=1
+    ports:
+      - "5003:5003"
+
+  grafana:
+    image: grafana/grafana:11.0.0
+    depends_on:
+      - postgres
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - grafana_data:/var/lib/grafana
+
+volumes:
+  pgdata:
+  n8n_data:
+  grafana_data:
