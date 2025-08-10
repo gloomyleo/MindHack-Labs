@@ -1,0 +1,8 @@
+flask
+openai
+psutil
+click
+streamlit
+pandas
+matplotlib
+sqlite-utils
