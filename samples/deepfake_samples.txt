@@ -1,0 +1,4 @@
+# Deepfake Detection Sample Metadata
+sample1.jpg - AI-generated face composite
+sample2.png - Authentic photo (control)
+sample3.mp4 - AI lip-sync generated from unrelated audio

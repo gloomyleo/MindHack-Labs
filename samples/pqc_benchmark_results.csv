@@ -1,0 +1,7 @@
+Algorithm,Device,KeyGen(ms),Encaps(ms),Decaps(ms)
+Kyber512,MacBookPro2023,1.23,0.98,1.01
+Kyber768,MacBookPro2023,1.45,1.21,1.17
+Dilithium2,MacBookPro2023,2.87,1.45,1.44
+Kyber512,RaspberryPi4,12.43,9.85,10.12
+Kyber768,RaspberryPi4,15.76,12.44,12.99
+Dilithium2,RaspberryPi4,28.34,15.12,14.99

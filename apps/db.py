@@ -71,3 +71,15 @@ def log_pqc(device, os_name, results, cpu, mem):
         c.execute("INSERT INTO pqc_runs (ts,device,os,alg,ms,cpu,mem) VALUES (?,?,?,?,?,?,?)",
                   (now_iso(), device, os_name, alg, float(ms), float(cpu), float(mem)))
     conn.commit(); conn.close()
+
+
+def reset_db():
+    conn = get_conn()
+    c = conn.cursor()
+    c.execute("DROP TABLE IF EXISTS prompt_tests")
+    c.execute("DROP TABLE IF EXISTS deepfake_results")
+    c.execute("DROP TABLE IF EXISTS redteam_plans")
+    c.execute("DROP TABLE IF EXISTS pqc_runs")
+    conn.commit()
+    conn.close()
+    init_db()

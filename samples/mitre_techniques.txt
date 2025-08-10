@@ -1,0 +1,9 @@
+T1059	Command and Scripting Interpreter
+T1547	Boot or Logon Autostart Execution
+T1041	Exfiltration Over C2 Channel
+T1562	Impair Defenses
+T1047	Windows Management Instrumentation
+T1003	OS Credential Dumping
+T1555	Credentials from Password Stores
+T1570	Lateral Tool Transfer
+T1071	Application Layer Protocol

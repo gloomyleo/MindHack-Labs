@@ -84,9 +84,11 @@ streamlit run dashboard_app.py
 
 ## 👤 About the Maintainer
 
-**Moazzam Jafri** — Cybersecurity Leader  
+**Moazzam Hussain** — Senior Manager, Cybersecurity Technology & Engineering.  
+Focus areas: **Security Engineering**, **AI Security**, **Zero Trust**, **OT/IT**, **Cloud Security**.
 
-- 🌐 LinkedIn: https://www.linkedin.com/in/moazzam-jafri-96136050/
+- 🌐 LinkedIn: *add your link*
+- ✉️ Email: *add your contact email*
 - 🧪 Research: prompt injection, deepfakes, autonomous adversary simulation, PQC readiness
 
 > If this repo helps you, ⭐ star it and share feedback or PRs. Contributions welcome!
@@ -109,3 +111,23 @@ MIT — see `LICENSE`.
 - Light banner: `assets/banner-light.png`  
 - Dark banner: `assets/banner-dark.png`  
 - Demo GIF: `assets/demo.gif`
+
+
+## 📴 Offline Demo (no internet, no keys)
+1) Seed the local SQLite DB with realistic results:
+```bash
+python seed_db.py
+```
+2) Launch the dashboard:
+```bash
+streamlit run dashboard_app.py
+# http://localhost:8501
+```
+3) Export CSVs from each tab for classroom handouts.
+
+
+## 🛠️ Dashboard Utilities
+- **Theme toggle** (Light/Dark) in the sidebar for chart styles
+- **📥 Load sample data** to populate SQLite instantly
+- **🗑️ Reset database** to drop & recreate tables
+- **CSV export** buttons on every tab

@@ -24,3 +24,10 @@ lint:
 
 docker:
 	docker build -t mindhack-labs .
+
+
+seed:
+	python seed_db.py
+
+reset-db:
+	python -c "from apps.db import reset_db; reset_db(); print('DB reset')"

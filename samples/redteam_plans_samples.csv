@@ -1,0 +1,35 @@
+ts,system,techniques,plan
+2025-08-10T12:00:00Z,Windows Server 2019,T1003|T1555,"1) Credential Dumping (T1003) LSASS memory
+2) Credentials from Password Stores (T1555)"
+2025-08-10T12:07:00Z,Kubernetes Cluster,T1059|T1547,"1) Command Execution (T1059) with scheduled task
+2) Lateral Tool Transfer (T1570)"
+2025-08-10T12:14:00Z,Ubuntu 22.04,T1003|T1555,"1) Data Exfiltration (T1041) to external endpoint
+2) Defense Evasion (T1562) by log tampering"
+2025-08-10T12:21:00Z,macOS 14,T1059|T1547,"1) Command Execution (T1059) with scheduled task
+2) Lateral Tool Transfer (T1570)"
+2025-08-10T12:28:00Z,Windows Server 2019,T1041|T1562,"1) Credential Dumping (T1003) LSASS memory
+2) Credentials from Password Stores (T1555)"
+2025-08-10T12:35:00Z,Windows Server 2019,T1003|T1555,"1) Command Execution (T1059) with scheduled task
+2) Lateral Tool Transfer (T1570)"
+2025-08-10T12:42:00Z,Windows Server 2019,T1041|T1562,"1) Data Exfiltration (T1041) to external endpoint
+2) Defense Evasion (T1562) by log tampering"
+2025-08-10T12:49:00Z,Kubernetes Cluster,T1059|T1547,"1) Command Execution (T1059) with scheduled task
+2) Lateral Tool Transfer (T1570)"
+2025-08-10T12:56:00Z,Windows Server 2019,T1041|T1562,"1) Command Execution (T1059) with scheduled task
+2) Lateral Tool Transfer (T1570)"
+2025-08-10T13:03:00Z,Kubernetes Cluster,T1041|T1562,"1) Initial Access (T1059) via script runner
+2) Persistence (T1547) with run key
+3) C2 over HTTPS (T1071)"
+2025-08-10T13:10:00Z,macOS 14,T1041|T1562,"1) Command Execution (T1059) with scheduled task
+2) Lateral Tool Transfer (T1570)"
+2025-08-10T13:17:00Z,Ubuntu 22.04,T1003|T1555,"1) Data Exfiltration (T1041) to external endpoint
+2) Defense Evasion (T1562) by log tampering"
+2025-08-10T13:24:00Z,Windows Server 2019,T1041|T1562,"1) Initial Access (T1059) via script runner
+2) Persistence (T1547) with run key
+3) C2 over HTTPS (T1071)"
+2025-08-10T13:31:00Z,macOS 14,T1003|T1555,"1) Data Exfiltration (T1041) to external endpoint
+2) Defense Evasion (T1562) by log tampering"
+2025-08-10T13:38:00Z,Windows Server 2019,T1059|T1547,"1) Credential Dumping (T1003) LSASS memory
+2) Credentials from Password Stores (T1555)"
+2025-08-10T13:45:00Z,Ubuntu 22.04,T1041|T1562,"1) Data Exfiltration (T1041) to external endpoint
+2) Defense Evasion (T1562) by log tampering"
