@@ -84,11 +84,9 @@ streamlit run dashboard_app.py
 
 ## 👤 About the Maintainer
 
-**Moazzam Hussain** — Senior Manager, Cybersecurity Technology & Engineering.  
-Focus areas: **Security Engineering**, **AI Security**, **Zero Trust**, **OT/IT**, **Cloud Security**.
+**Moazzam Jafri** — Cybersecurity Leader.
 
-- 🌐 LinkedIn: *add your link*
-- ✉️ Email: *add your contact email*
+- 🌐 LinkedIn: https://www.linkedin.com/in/moazzam-jafri-96136050/
 - 🧪 Research: prompt injection, deepfakes, autonomous adversary simulation, PQC readiness
 
 > If this repo helps you, ⭐ star it and share feedback or PRs. Contributions welcome!
