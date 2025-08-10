@@ -30,8 +30,8 @@
 
 ### 1) Setup
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/<REPO>.git
-cd <REPO>
+git clone https://github.com/gloomyleo/MindHack-Labs.git
+cd MindHack-Labs
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 export OPENAI_API_KEY=your_key_here    # needed for LLM steps
