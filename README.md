@@ -71,11 +71,9 @@ Use `dashboards/` templates for Grafana / Superset / Google Data Studio.
 
 ## 👤 About the Maintainer
 
-**Moazzam Hussain** — Senior Manager, Cybersecurity Technology & Engineering.  
-Focus areas: **Security Engineering**, **AI Security**, **Zero Trust**, **OT/IT**, and **Cloud Security**.
+**Moazzam Jafri** — Cyber Security Leader.  
 
-- 🌐 LinkedIn: *add your link here*
-- ✉️ Email: *add your contact email*
+- 🌐 LinkedIn: https://www.linkedin.com/in/moazzam-jafri-96136050/
 - 🧪 Research: AI threats (prompt injection, deepfakes), autonomous adversary simulation, PQC readiness
 
 > If this repo helps you, ⭐ star it and share feedback or PRs. Contributions are welcome!
