@@ -20,11 +20,13 @@
 - **AI Red Team Simulator** — generate MITRE ATT&CK-aligned plans for safe, sandboxed testing.
 - **Post-Quantum Crypto Benchmarking** — benchmark PQC algorithms on real devices.
 
-> Public and open-source. MIT-licensed.
+> Public, open-source, and classroom-ready. MIT-licensed.
 
 ---
 
 ## 🚀 Quickstart
+
+![MindHack Labs Dashboard Demo](assets/dashboard-demo.gif)
 
 ### 1) Setup
 ```bash
@@ -84,9 +86,11 @@ streamlit run dashboard_app.py
 
 ## 👤 About the Maintainer
 
-**Moazzam Jafri** — Cybersecurity Leader.
+**Moazzam Hussain** — Senior Manager, Cybersecurity Technology & Engineering.  
+Focus areas: **Security Engineering**, **AI Security**, **Zero Trust**, **OT/IT**, **Cloud Security**.
 
-- 🌐 LinkedIn: https://www.linkedin.com/in/moazzam-jafri-96136050/
+- 🌐 LinkedIn: *add your link*
+- ✉️ Email: *add your contact email*
 - 🧪 Research: prompt injection, deepfakes, autonomous adversary simulation, PQC readiness
 
 > If this repo helps you, ⭐ star it and share feedback or PRs. Contributions welcome!
@@ -129,3 +133,19 @@ streamlit run dashboard_app.py
 - **📥 Load sample data** to populate SQLite instantly
 - **🗑️ Reset database** to drop & recreate tables
 - **CSV export** buttons on every tab
+
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="docs/screenshots/dashboard_home.png" alt="MindHack Labs dashboard home view with utilities sidebar" width="49%"/>
+  <img src="docs/screenshots/dark_mode.png" alt="Dashboard in dark theme showing title bar and sidebar" width="49%"/>
+</p>
+<p align="center">
+  <img src="docs/screenshots/prompt_injection_tab.png" alt="Prompt Injection tab showing recent runs and risk summary" width="49%"/>
+  <img src="docs/screenshots/deepfake_detection_tab.png" alt="Deepfake Detection tab showing verdict distribution" width="49%"/>
+</p>
+<p align="center">
+  <img src="docs/screenshots/pqc_benchmark_chart.png" alt="PQC Benchmarks tab with device vs algorithm timings chart" width="60%"/>
+</p>
+
