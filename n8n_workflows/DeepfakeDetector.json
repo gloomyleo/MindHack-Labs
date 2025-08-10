@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "instanceId": "placeholder"
+  },
+  "nodes": [],
+  "connections": {},
+  "active": false,
+  "settings": {},
+  "name": "Deepfake Detector",
+  "id": "deepfake_detector"
+}

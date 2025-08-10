@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "instanceId": "placeholder"
+  },
+  "nodes": [],
+  "connections": {},
+  "active": false,
+  "settings": {},
+  "name": "AI Red Team Simulator",
+  "id": "ai_red_team_simulator"
+}

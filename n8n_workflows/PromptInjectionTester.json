@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "instanceId": "placeholder"
+  },
+  "nodes": [],
+  "connections": {},
+  "active": false,
+  "settings": {},
+  "name": "Prompt Injection Tester",
+  "id": "prompt_injection_tester"
+}
