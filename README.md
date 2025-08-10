@@ -20,7 +20,7 @@
 - **AI Red Team Simulator** — generate MITRE ATT&CK-aligned plans for safe, sandboxed testing.
 - **Post-Quantum Crypto Benchmarking** — benchmark PQC algorithms on real devices.
 
-> Public, open-source, and classroom-ready. MIT-licensed.
+> Public and open-source. MIT-licensed.
 
 ---
 
